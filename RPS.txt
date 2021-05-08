@@ -1,0 +1,65 @@
+//simple Rock Paper Scissors using rand and if statements
+
+#include <iostream>
+#include <string>
+#include <cstdlib>
+
+using namespace std;
+
+int main(){
+    
+    int player;
+    int comp;
+    
+    int playerWin = 0;
+    int playerLosses = 0;
+    int playerTies = 0;
+    
+    for(int x = 0; x < 1000000; x++){
+        
+     player = rand() % 3 + 1;
+     comp = rand() % 3 + 1;
+         
+    
+    if(player == 1 && comp == 1){
+        playerTies++;
+    }
+    if(player == 1 && comp == 2){
+        playerLosses++;
+       
+    }
+    if(player == 1 && comp == 3){
+        playerWin++;
+    }
+    
+    if(player == 2 && comp == 1){
+        playerWin++;
+    }
+    if(player == 2 && comp == 2){
+        playerTies++;
+    }
+    if(player == 2 && comp == 3){
+        playerLosses++;
+    }
+    
+    if(player == 3 && comp == 1){
+        playerLosses++;
+    }
+    if(player == 3 && comp == 2){
+        playerWin++;
+    }
+    if(player == 2 && comp == 3){
+        playerTies++;
+    }
+    
+    
+    }
+
+    
+    cout << "Win : " << playerWin << endl;
+    cout << "Losses : " << playerLosses << endl;
+    cout << "Ties : " << playerTies << endl;
+    
+}
+
+       
