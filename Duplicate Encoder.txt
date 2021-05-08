@@ -1,0 +1,31 @@
+#include <string>
+#include <iostream>
+
+int main(){
+
+  std::string word = "Happy";
+  std::string OutPut = "";
+  int intEnd = word.length();
+  
+
+      for(int x = 0; x < intEnd; x++){
+        word [x] = tolower(word [x]);
+    }
+  
+  for(int i =  0; i < intEnd; i++){
+   for(int x = 0; x < intEnd; x++){
+
+       if(word[i] == word[x] && i != x){
+         
+         OutPut += ")";
+         break;
+         
+       }else if(x == intEnd-1){
+           OutPut += "(";
+       }
+     
+       }      
+     }
+  std::cout << OutPut;
+  return 0;
+}
