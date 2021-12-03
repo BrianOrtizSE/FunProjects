@@ -1,0 +1,13 @@
+print("What is your weight? ")
+weight = input()
+
+print("Weight in (K)ilo's or (L)bs ?")
+ans = input()
+
+if ans=="K":
+    weight = float(weight) * .45
+    print("Your Weight In Kilos is : " + str(weight))
+else:
+    weight = float(weight) * 2.205
+    print("Your Weight In Pounds is : " + str(weight))
+print("Done")
