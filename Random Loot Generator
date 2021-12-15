@@ -1,0 +1,28 @@
+Common = 0
+Uncomon = 0
+Rare = 0
+Epic = 0
+Legendary = 0
+for x in range(0, 1000):
+    import random
+    n = random.randint(0,100)
+    if(n <= 45):
+        print("Common")
+        Common += 1
+    elif(n <= 70):
+        print("Uncommon")
+        Uncomon += 1
+    elif(n <= 85):
+        print("Rare")
+        Rare += 1
+    elif(n <= 95):
+        print("Epic")
+        Epic += 1
+    elif(n <= 100):
+        print("Legendary")
+        Legendary += 1
+print ("Common :" + str(Common))
+print ("Uncomon :" + str(Uncomon))
+print ("Rare :" + str(Rare))
+print ("Epic :" + str(Epic))
+print ("Legendary :" + str(Legendary))
