@@ -1,0 +1,11 @@
+class Team: #Creating A Class Called Team
+
+    def __init__(self, name, currency): #Initiating the class with Name and Currency
+
+        self.name = name
+        self.currency = currency
+
+
+t1 = Team = ("Brian", 13) #Defining A team named t1 with 13 currency
+
+print(str(t1) + "\n")
