@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+
+int main()
+{
+    int n;
+    cin >> n; cin.ignore();
+    int size = n;
+    int intArray[size];
+    for (int i = 0; i < n; i++) {
+        int value;
+        cin >> value; cin.ignore();
+        intArray[i] = value;
+    }
+    while(size != 1){
+        for(int i = 0; i < size-1; i++){
+        intArray[i] = intArray[i] + intArray[i+1];
+        cout << i << " = " << intArray[i] << endl;
+    }
+    size = size-1;
+    }
+
+}
