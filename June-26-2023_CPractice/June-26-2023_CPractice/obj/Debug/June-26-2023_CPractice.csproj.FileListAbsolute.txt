@@ -1,0 +1,10 @@
+C:\Users\EffectedSage0\Desktop\PracticeC#\June-26-2023_CPractice\June-26-2023_CPractice\bin\Debug\June-26-2023_CPractice.exe.config
+C:\Users\EffectedSage0\Desktop\PracticeC#\June-26-2023_CPractice\June-26-2023_CPractice\bin\Debug\June-26-2023_CPractice.exe
+C:\Users\EffectedSage0\Desktop\PracticeC#\June-26-2023_CPractice\June-26-2023_CPractice\bin\Debug\June-26-2023_CPractice.pdb
+C:\Users\EffectedSage0\Desktop\PracticeC#\June-26-2023_CPractice\June-26-2023_CPractice\obj\Debug\June-26-2023_CPractice.csprojAssemblyReference.cache
+C:\Users\EffectedSage0\Desktop\PracticeC#\June-26-2023_CPractice\June-26-2023_CPractice\obj\Debug\June_26_2023_CPractice.frmMain.resources
+C:\Users\EffectedSage0\Desktop\PracticeC#\June-26-2023_CPractice\June-26-2023_CPractice\obj\Debug\June_26_2023_CPractice.Properties.Resources.resources
+C:\Users\EffectedSage0\Desktop\PracticeC#\June-26-2023_CPractice\June-26-2023_CPractice\obj\Debug\June-26-2023_CPractice.csproj.GenerateResource.cache
+C:\Users\EffectedSage0\Desktop\PracticeC#\June-26-2023_CPractice\June-26-2023_CPractice\obj\Debug\June-26-2023_CPractice.csproj.CoreCompileInputs.cache
+C:\Users\EffectedSage0\Desktop\PracticeC#\June-26-2023_CPractice\June-26-2023_CPractice\obj\Debug\June-26-2023_CPractice.exe
+C:\Users\EffectedSage0\Desktop\PracticeC#\June-26-2023_CPractice\June-26-2023_CPractice\obj\Debug\June-26-2023_CPractice.pdb
